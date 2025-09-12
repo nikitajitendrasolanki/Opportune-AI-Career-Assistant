@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "428630551196",
+    "project_id": "career-assistant-8e6eb",
+    "storage_bucket": "career-assistant-8e6eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428630551196:android:d954e21f94e61cea889b59",
+        "android_client_info": {
+          "package_name": "com.career.assistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK12PZIp6bKy25IbDU1qALeSdZXVjN-Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

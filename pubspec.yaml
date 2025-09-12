@@ -1,0 +1,78 @@
+name: career_assistant
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # ✅ Firebase dependencies
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.15.4
+  firebase_storage: ^11.7.4
+  firebase_messaging: ^14.7.4
+  animated_background: ^2.0.0
+  glassmorphism: ^2.0.0
+  google_fonts: ^6.1.0
+  flutter_tts: ^3.8.5
+  audioplayers: ^5.2.1
+  animated_text_kit: ^4.2.2
+  lottie: ^3.0.0
+  font_awesome_flutter: ^10.9.0
+  smooth_page_indicator: ^1.1.0
+  pdf: ^3.11.3         # Latest version might be higher, check pub.dev
+  printing: ^5.12.5    # Latest version might be higher
+  open_filex: ^4.5.0
+  sqflite: ^2.2.8+4    # ✅ latest stable version
+  path: ^1.8.3          # Required for database paths
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.3.1
+  flutter_dotenv: ^6.0.0
+  webview_flutter: ^4.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.0
+
+flutter_native_splash:
+  color: "#1E1E1E"        # Dark background
+  image: assets/LOGO.jpg   # Tumhara logo
+  android: true
+  ios: true
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/SPHERE.jpg
+    - assets/LOGO.jpg
+    - assets/BG.png
+    - assets/USER.jpg
+    - assets/sounds/startup.mp3
+    - assets/animations/robot.json
+    - assets/animations/purple-bg.json
+    - assets/animations/feature1.json
+    - assets/animations/feature2.json
+    - assets/animations/feature3.json
+    - assets/animations/feature4.json
+    - assets/animations/feature5.json
+    - assets/animations/downward1.json
+    - assets/animations/downward2.json
+    - assets/animations/downward3.json
+    - .env
+
+fonts:
+  - family: Orbitron
+    fonts:
+      - asset: assets/fonts/Orbitron-Regular.ttf
