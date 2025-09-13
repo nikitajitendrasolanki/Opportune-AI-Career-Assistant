@@ -1,16 +1,50 @@
-# career_assistant
+# 📱 Career Assistant App
 
-A new Flutter project.
+An AI-powered mobile application built with **Flutter** and **Node.js backend**, designed to simplify the job search and career growth process.  
+It helps users create professional resumes, analyze job descriptions, detect skill gaps, and even apply for jobs seamlessly. 🚀
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📝 **Smart Resume Builder** – Build a professional resume with clean templates.
+- 📊 **AI Resume Insights** – Analyze your resume and highlight improvements.
+- 🔍 **Job Description Analysis** – Upload a JD and instantly see missing skills.
+- 🧩 **Skill Gap Detection** – Get personalized recommendations to upskill.
+- ⚡ **One-Click Job Applications** – Apply directly from the app.
+- 🔔 **Real-time Notifications** – Stay updated with job alerts & recommendations.
+- 🌍 **Cross-Platform** – Works on both Android and iOS.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Frontend:** Flutter (Dart)  
+- **Backend:** Node.js + Express  
+- **Database:** MongoDB / Firebase (depending on integration)  
+- **Authentication:** Firebase Auth (OTP / Social logins)  
+- **AI/ML:** OpenAI API (for resume & JD analysis)  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (>= 3.x)
+- Node.js (>= 18.x)
+- A configured Firebase project
+- OpenAI API Key (for AI-based features)
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/career_assistant.git
+
+# Navigate to project directory
+cd career_assistant
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
