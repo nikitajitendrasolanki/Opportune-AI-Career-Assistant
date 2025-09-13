@@ -20,7 +20,6 @@ It combines AI-driven resume insights, job description analysis, skill gap detec
 - 🔍 **Job Description Analysis** – Upload a JD and instantly see missing skills.  
 - 🧩 **Skill Gap Detection** – Get personalized recommendations to upskill.  
 - ⚡ **One-Click Job Applications** – Apply directly from the app.  
-- 🔔 **Real-time Notifications** – Stay updated with job alerts & recommendations.  
 - 🌍 **Cross-Platform** – Works on both Android and iOS.  
 
 ---
@@ -29,9 +28,9 @@ It combines AI-driven resume insights, job description analysis, skill gap detec
 
 - **Frontend:** Flutter (Dart)  
 - **Backend:** Node.js + Express  
-- **Database:** MongoDB / Firebase (depending on integration)  
+- **Database:** MySql / Firebase (depending on integration)  
 - **Authentication:** Firebase Auth (OTP / Social logins)  
-- **AI/ML:** OpenAI API (for resume & JD analysis)  
+- **AI/ML:** Gro AqPI (for resume & JD analysis) , AzunaID & AzunaApi (Job Fetching)
 
 
 ---
