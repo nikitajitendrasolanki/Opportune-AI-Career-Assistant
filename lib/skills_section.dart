@@ -58,7 +58,7 @@ class _SkillsSectionState extends State<SkillsSection> {
 
     try {
       final response = await http.post(
-        Uri.parse("http://192.168.0.109:5000/skills/upsert"),
+        Uri.parse("http://10.59.252.17:5000/skills/upsert"),
         headers: {"Content-Type": "application/json"},
         body: jsonEncode({"firebase_uid": user.uid, "skills": payload}),
       );

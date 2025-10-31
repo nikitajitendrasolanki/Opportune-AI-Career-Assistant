@@ -91,7 +91,7 @@ class _ExperienceFormState extends State<ExperienceForm> {
 
     try {
       final response = await http.post(
-        Uri.parse("http://192.168.0.109:5000/experience/upsert"),
+        Uri.parse("http://10.59.252.17:5000/experience/upsert"),
         headers: {"Content-Type": "application/json"},
         body: jsonEncode({
           "firebase_uid": user.uid,

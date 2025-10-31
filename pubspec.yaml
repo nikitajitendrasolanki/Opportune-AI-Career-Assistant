@@ -28,8 +28,8 @@ dependencies:
   lottie: ^3.0.0
   font_awesome_flutter: ^10.9.0
   smooth_page_indicator: ^1.1.0
-  pdf: ^3.11.3         # Latest version might be higher, check pub.dev
-  printing: ^5.12.5    # Latest version might be higher
+  pdf: ^3.11.3
+  printing: ^5.12.5
   open_filex: ^4.5.0
   sqflite: ^2.2.8+4    # ✅ latest stable version
   path: ^1.8.3          # Required for database paths

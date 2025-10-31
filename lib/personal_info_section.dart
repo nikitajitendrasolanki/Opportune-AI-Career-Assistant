@@ -51,7 +51,7 @@ class _PersonalInfoSectionState extends State<PersonalInfoSection> {
 
     try {
       final response = await http.post(
-        Uri.parse("http://192.168.0.109:5000/users/upsert"),
+        Uri.parse("http://10.59.252.17:5000/users/upsert"),
         headers: {"Content-Type": "application/json"},
         body: jsonEncode({
           "firebase_uid": user.uid,
